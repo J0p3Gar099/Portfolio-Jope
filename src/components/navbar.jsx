@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import NavLinks from "./navLinks";
 const { usePathname } = require("next/navigation");
-import { motion, stagger } from "framer-motion";
+import { motion } from "framer-motion";
 
 const links = [
   { url: "/", title: "Home" },
